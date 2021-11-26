@@ -596,6 +596,7 @@
 	}
 	.item-billbord__content {
 		min-height: 494px;
+		    height: calc(100vh - 60px);
 	}
 	.btn-main {
 		height: 42px;
