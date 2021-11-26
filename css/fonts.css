@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Littera Plain';
+	src: url('../fonts/LitteraPlainRegular.eot');
+	src: url('../fonts/LitteraPlainRegular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/LitteraPlainRegular.woff') format('woff'),
+	url('../fonts/LitteraPlainRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Littera Plain';
+	src: url('../fonts/LitteraPlainMedium.eot');
+	src: url('../fonts/LitteraPlainMedium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/LitteraPlainMedium.woff') format('woff'),
+	url('../fonts/LitteraPlainMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Littera Plain';
+    src: url('../fonts/LitteraPlainBold.eot');
+    src: url('../fonts/LitteraPlainBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/LitteraPlainBold.woff') format('woff'),
+    url('../fonts/LitteraPlainBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+@font-face {
+	font-family: 'Road Radio';
+	src: url('../fonts/RoadRadio.eot');
+	src: url('../fonts/RoadRadio.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/RoadRadio.woff') format('woff'),
+	url('../fonts/RoadRadio.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Road Radio';
+	src: url('../fonts/RoadRadio-Bold.eot');
+	src: url('../fonts/RoadRadio-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/RoadRadio-Bold.woff') format('woff'),
+	url('../fonts/RoadRadio-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
