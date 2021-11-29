@@ -138,6 +138,34 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-products').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow: 4,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 1400,
+			settings: {
+			slidesToShow: 3,
+			arrows: false
+			}
+		},
+		{
+			breakpoint: 1200,
+			settings: {
+			slidesToShow: 1,
+			variableWidth: true,
+			arrows: false,
+			dots: true
+			}
+		}
+		]
+	});
+
 	$('.slider-portfolio').slick({
 		arrows: true,
 		dots: false,
@@ -178,8 +206,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").removeClass("active");
 		var selectTab = $(this).attr("href");
 		$(selectTab).addClass("active");
-		
-	
+	});
+
+	$('.tabs-card li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-card").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
 	});
 
 	{

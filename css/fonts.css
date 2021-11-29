@@ -44,3 +44,12 @@
 	font-weight: 700;
 	font-style: normal;
 }
+@font-face {
+    font-family: 'Road Radio';
+    src: url('../fonts/RoadRadio-Black.eot');
+    src: url('../fonts/RoadRadio-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RoadRadio-Black.woff') format('woff'),
+    url('../fonts/RoadRadio-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    }
