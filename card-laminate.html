@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css?ver=1.2" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_page">
+
+		<div class="buttons-fixed"> 
+			<a href="#" class="btn-fixed"><i class="far fa-list-ul"></i>Каталог</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-user-circle"></i>Вход</a>
+			<a href="#" class="btn-fixed"><img src="img/filter.svg" alt="alt">Сравнить</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-heart"></i>Избранное</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-shopping-bag"></i>Корзина<span class="btn-fixed__value">5</span></a>
+		</div>
+
+		<header class="header default">
+			<div class="container-fluid">
+				<div class="header__wrap">
+					<div class="menu-main">
+						<div class="row">
+							<div class="col-lg-3">
+								<a href="#" class="title-menu">компания</a>
+								<ul class="nav-menu">
+									<li><a href="#">О компании</a></li>
+									<li><a href="#">Наша команда</a></li>
+									<li><a href="#">Сертификаты</a></li>
+									<li><a href="#">Партнёры</a></li>
+									<li><a href="#">Вакансии</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<a href="#" class="title-menu">Покупателям</a>
+								<ul class="nav-menu">
+									<li><a href="#">Доставка и оплата</a></li>
+									<li><a href="#">Возврат и обмен товара</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul>
+									<li><a href="#" class="title-menu">B2B клиентам</a></li>
+									<li><a href="#" class="title-menu">Портфолио</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul>
+									<li><a href="#" class="title-menu">Блог</a></li>
+									<li><a href="#" class="title-menu">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="header__left">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="btn-menu">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+							<div class="btn-menu__text">Меню</div>
+						</div>
+					</div>
+					<ul class="menu">
+						<li><a href="#">Покупателям</a></li>
+						<li><a href="#">B2B клиентам</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Вызвать замерщика</a></li>
+					</ul>
+					<div class="phones-block">
+						<a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21 <i class="far fa-chevron-down"></i></a>
+						<div class="phones-block__dropdown">
+							<ul>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-form">
+						<form>
+							<input type="text" placeholder="Поиск">
+							<div class="btn-search"><i class="fal fa-search"></i></div>
+						</form>
+					</div>
+					<div class="btn-icon"><i class="fal fa-user-circle"></i></div>
+					<div class="btn-icon"><img src="img/filter.svg" alt="alt"></div>
+					<div class="btn-icon"><i class="fal fa-heart"></i></div>
+					<div class="btn-icon">
+						<i class="fal fa-shopping-bag"></i>
+						<div class="btn-icon__value">5</div>
+						<div class="btn-icon__arrow"><i class="fas fa-chevron-down"></i></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="card-page card-page_laminate">
+			<div class="content content_page">
+				<div class="content__left">
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Новинки</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar active">
+						<div class="item-sidebar__link">Межкомнатные двери</div>
+						<div class="item-sidebar__content" style="display: block;">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Металлические двери</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Входные двери</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Ламинат</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Виниловые полы</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Декор</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="content__right">
+					<div class="card-content">
+						<div class="content__top">
+							<ul class="breadcrumbs">
+								<li><a href="#">Главная</a><span>/</span></li>
+								<li><a href="#">Входные двери</a><span>/</span></li>
+								<li>Bravo R</li>
+							</ul>
+							<a href="#" class="link-page"><i class="far fa-arrow-left"></i> Назад</a>
+						</div>
+						<h1 class="title-section title-section_mob"> Входная дверь Лабиринт Альфа с зеркалом</h1>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="card-image">
+									<div class="status">хит продаж</div>
+									<img src="img/card2.jpg" alt="alt">
+									<div class="links-fixed">
+										<a href="tel:+79788370321" class="phone-mob"><i class="fas fa-phone-alt"></i></a>
+										<a href="#callback" class="btn-mob">вызвать замерщика</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 card-right">
+								<div class="card-top">
+									<div class="card-top__left">
+										<h1 class="title-section">Ламинат Kronostar Eventum</h1>
+										<div class="card-top__descr">D1847 V4 Дуб Супремо</div>
+									</div>
+									<div class="card-top__right">
+										<div class="articul">Артикул: <span>123456</span></div>
+										<div class="availability">В наличии</div>
+									</div>
+								</div>
+								<div class="wrap-setting-card">
+									<div class="row">
+										<div class="col-xl-5 col-6">
+											<div class="title-card">Класс износостойкости:</div>
+											<div class="list-settings">
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio1" checked="checked" />
+														<span>31</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio1" />
+														<span>32</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio1" />
+														<span>33</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio1" />
+														<span>34</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-5 col-6 pl_0">
+											<div class="title-card">Толщина:</div>
+											<div class="list-settings">
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio3" checked="checked" />
+														<span>8</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio2" />
+														<span>10</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="radio2" />
+														<span>12</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-6">
+											<div class="title-card">Цвет:</div>
+											<div class="colors-radios">
+												<div class="radio-color">
+													<label>
+														<input type="radio" name="color" checked="checked" />
+														<span style="background: #fff;"></span>
+													</label>
+												</div>
+												<div class="radio-color">
+													<label>
+														<input type="radio" name="color" />
+														<span style="background: #b97a57;"></span>
+													</label>
+												</div>
+												<div class="radio-color">
+													<label>
+														<input type="radio" name="color" />
+														<span style="background: #2f3a4d;"></span>
+													</label>
+												</div>
+												<div class="radio-color">
+													<label>
+														<input type="radio" name="color" />
+														<span style="background: #4e312b;"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-4 col-md-4 col-6 pl_40">
+											<div class="title-card">С фаской:</div>
+											<div class="item-select">
+												<select>
+													<option value="1">Без фаски</option>
+													<option value="1">Без фаски</option>
+													<option value="1">Без фаски</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xl-4 col-md-4 col-6">
+											<div class="title-card">Под теплый пол:</div>
+											<div class="type-radios">
+												<div class="radio-type">
+													<label>
+														<input type="radio" name="radio_type1" checked="checked" />
+														<span><span class="radio-type__icon"></span>Да</span>
+													</label>
+												</div>
+												<div class="radio-type">
+													<label>
+														<input type="radio" name="radio_type1" />
+														<span><span class="radio-type__icon"></span>Нет</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card-prices">
+									<div class="price-old">1 400 Р/м<sup>2</sup></div>
+									<div class="price-main">1 200 Р/м<sup>2</sup></div>
+								</div>
+								<div class="card-amount">Количество в упаковке м<sup>2</sup>: <span>1, 495</span></div>
+								<div class="card-bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="2">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<div class="value-card">В заказе: <span><strong>2, 23</strong> м<sup>2</sup></span></div>
+									<div class="price-main">2 400 Р/м<sup>2</sup></div>
+								</div>
+								<div class="card-buttons">
+									<a href="#" class="btn-main btn-main_page">в корзину</a>
+									<a href="#" class="btn-main">купить в 1 клик</a>
+									<a href="#" class="btn-icon-card"><i class="far fa-heart"></i></a>
+									<a href="#" class="btn-icon-card"><img src="img/filter2.svg" alt="alt"></a>
+								</div>
+							</div>
+						</div>
+						<ul class="tabs-card">
+							<li class="active"><a href="#tab_card1">описание</a></li>
+							<li><a href="#tab_card2">характеристики</a></li>
+						</ul>
+						<div class="tab-container-card">
+							<div class="tab-pane-card" id="tab_card1">
+								<div class="row">
+									<div class="col-lg-6 pr_35">
+										<p><strong>Описание:</strong> Стальной дверной блок с открыванием наружу. Поставляется с правым и левым открыванием.</p>
+										<p><strong>Особенности:</strong> Стабильно точные геометрические показатели, которые обеспечиваются высокой степенью автоматизации и роботизации производства. </p>
+										<p><strong>Качество:</strong> Сертифицирован для РФ по ГОСТ 31173-2016. Наивысшие классы по эксплуатационным характеристикам (1) и прочности (М5). Сертификат POCC RU.SSK1.H00960/21.</p>
+										<p><strong>Марка стали:</strong> Высококачественная конструкционная углеродистая сталь (08пс).</p>
+									</div>
+									<div class="col-lg-6 hidden_mob">
+										<p><strong>Отделка снаружи:</strong> Стальной лист с декоративным тиснением.</p>
+										<p><strong>Отделка внутри:</strong> Декоративная панель. Толщина 8 мм, Эко Шпон.</p>
+										<p><strong>Окраска:</strong> Индустриальная полиэфирная порошковая краска голландского концерна AkzoNobel.</p>
+										<p><strong>Толщина полотна/коробки, мм:</strong> 66/92 </p>
+										<p><strong>Толщина стали полотна/коробки, мм:</strong> 1,2 (у других производителей, как правило, не более 0,8 мм).</p>
+										<p><strong>Ширина наличника:</strong> 50</p>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane-card" id="tab_card2">
+								<div class="table-features">
+									<table>
+										<tbody>
+											<tr>
+												<td>Материал:</td>
+												<td>Брус сосны, МДФ, сотовое наполнение</td>
+											</tr>
+											<tr>
+												<td>Модель:</td>
+												<td>Грунтованная</td>
+											</tr>
+											<tr>
+												<td>Дизайн:</td>
+												<td>Модерн</td>
+											</tr>
+											<tr>
+												<td>Особенность:</td>
+												<td>Усиленный каркас из массива сосны </td>
+											</tr>
+											<tr>
+												<td>Покрытие:</td>
+												<td>Грунт</td>
+											</tr>
+											<tr>
+												<td>Покрытие двери:</td>
+												<td>Грунтованное</td>
+											</tr>
+											<tr>
+												<td>Размер, мм:</td>
+												<td>2000х800</td>
+											</tr>
+											<tr>
+												<td>Стекло:</td>
+												<td>зеркало</td>
+											</tr>
+											<tr>
+												<td>Тип двери:</td>
+												<td>Глухая</td>
+											</tr>
+											<tr>
+												<td>Цветовая гамма:</td>
+												<td>Под покраску</td>
+											</tr>
+											<tr>
+												<td>Толщина полотна, мм:</td>
+												<td>37 мм</td>
+											</tr>
+											<tr>
+												<td>Цвет:</td>
+												<td>Белый</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h2 class="title-section">Другие товары в разделе</h2>
+					<ul class="slider-products">
+						<li>
+							<div class="item-catalog">
+								<div class="status">хит продаж</div>
+								<ul class="colors-list">
+									<li><div class="item-color" style="background: #ffffff; border: 2px solid #404040;"></div></li>
+									<li><div class="item-color" style="background: #b97a57;"></div></li>
+									<li><div class="item-color" style="background: #2f3a4d;"></div></li>
+									<li><div class="item-color" style="background: #4e312b;"></div></li>
+								</ul>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+								</a>
+								<div class="item-catalog__top">
+									<div class="articul">Артикул: <span>123456</span></div>
+									<div class="availability">В наличии</div>
+								</div>
+								<a href="#" class="item-catalog__title">Входная дверь Лабиринт Альфа с зеркалом</a>
+								<div class="item-catalog__price">от 23 000 Р</div>
+								<div class="item-catalog__bottom">
+									<a href="#" class="link-main">подробнее</a>
+									<a href="#" class="btn-main">купить в 1 клик</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-catalog">
+								<div class="status">хит продаж</div>
+								<ul class="colors-list">
+									<li><div class="item-color" style="background: #ffffff; border: 2px solid #404040;"></div></li>
+									<li><div class="item-color" style="background: #b97a57;"></div></li>
+									<li><div class="item-color" style="background: #2f3a4d;"></div></li>
+									<li><div class="item-color" style="background: #4e312b;"></div></li>
+								</ul>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+								</a>
+								<div class="item-catalog__top">
+									<div class="articul">Артикул: <span>123456</span></div>
+									<div class="availability">В наличии</div>
+								</div>
+								<a href="#" class="item-catalog__title">Входная дверь Лабиринт Альфа с зеркалом</a>
+								<div class="item-catalog__price">от 23 000 Р</div>
+								<div class="item-catalog__bottom">
+									<a href="#" class="link-main">подробнее</a>
+									<a href="#" class="btn-main">купить в 1 клик</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-catalog">
+								<div class="status">хит продаж</div>
+								<ul class="colors-list">
+									<li><div class="item-color" style="background: #ffffff; border: 2px solid #404040;"></div></li>
+									<li><div class="item-color" style="background: #b97a57;"></div></li>
+									<li><div class="item-color" style="background: #2f3a4d;"></div></li>
+									<li><div class="item-color" style="background: #4e312b;"></div></li>
+								</ul>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+								</a>
+								<div class="item-catalog__top">
+									<div class="articul">Артикул: <span>123456</span></div>
+									<div class="availability">В наличии</div>
+								</div>
+								<a href="#" class="item-catalog__title">Входная дверь Лабиринт Альфа с зеркалом</a>
+								<div class="item-catalog__price">от 23 000 Р</div>
+								<div class="item-catalog__bottom">
+									<a href="#" class="link-main">подробнее</a>
+									<a href="#" class="btn-main">купить в 1 клик</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-catalog">
+								<div class="status">хит продаж</div>
+								<ul class="colors-list">
+									<li><div class="item-color" style="background: #ffffff; border: 2px solid #404040;"></div></li>
+									<li><div class="item-color" style="background: #b97a57;"></div></li>
+									<li><div class="item-color" style="background: #2f3a4d;"></div></li>
+									<li><div class="item-color" style="background: #4e312b;"></div></li>
+								</ul>
+								<a href="#" class="item-catalog__image">
+									<img src="img/catalog1.jpg" alt="alt">
+								</a>
+								<div class="item-catalog__top">
+									<div class="articul">Артикул: <span>123456</span></div>
+									<div class="availability">В наличии</div>
+								</div>
+								<a href="#" class="item-catalog__title">Входная дверь Лабиринт Альфа с зеркалом</a>
+								<div class="item-catalog__price">от 23 000 Р</div>
+								<div class="item-catalog__bottom">
+									<a href="#" class="link-main">подробнее</a>
+									<a href="#" class="btn-main">купить в 1 клик</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="logo-descr">Продажа, доставка <br>и монтаж дверей в Крыму <br>и Симферополе</div>
+						</div>
+						<ul class="list-social">
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+						</ul>
+						<div class="footer__mob">
+							<p>АР Крым, Симферополь ул. Павленко, 38</p>
+							<p class="footer__contacts"><a href="tel:+79785444040">+7 978 544-40-40</a> <a href="#"><i class="fab fa-whatsapp"></i></a></p>
+							<p><a href="mailto:rasim.okna2008@yandex.ru">rasim.okna2008@yandex.ru</a></p>
+							<p><strong>режим работы:</strong> ежедневно с 9:00 до 18:00</p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">каталог <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Межкомнатные двери</a></li>
+								<li><a href="#">Входные двери</a></li>
+								<li><a href="#">Скрытые двери</a></li>
+								<li><a href="#">Стеклянные двери</a></li>
+								<li><a href="#">Межкомнатные двери</a></li>
+								<li><a href="#">Фурнитура</a></li>
+								<li><a href="#">Перегородки</a></li>
+								<li><a href="#">Двери спец. назначения</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">покупателям <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Возврат и обмен товара</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#" class="footer__title">АКЦИИ</a></li>
+							<li><a href="#" class="footer__title">СОВЕТЫ И СТАТЬИ</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">о компании <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Наша команда</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+								<li><a href="#">Вакансии</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<div class="requisites">
+								<p>ИНН: 7805524271</p>
+								<p>ОГРН: 1107847199844</p>
+								<p>КПП: 780201001</p>
+								<p>ОКАТО: 40265000000</p>
+								<p>ОКПО: 67396289</p>
+								<p>ОКТМО: 40314000000</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" class="footer__title">контакты</a>
+						<div class="footer__content">
+							<p>АР Крым, Симферополь <br>ул. Павленко, 38</p>
+							<p class="footer__contacts"><a href="tel:+79785444040">+7 978 544-40-40</a> <a href="#"><i class="fab fa-whatsapp"></i></a></p>
+							<p><a href="mailto:rasim.okna2008@yandex.ru">rasim.okna2008@yandex.ru</a></p>
+							<p>режим работы: <br>ежедневно с 9:00 до 18:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<ul class="list-social list-social_mob">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-vk"></i></a></li>
+					</ul>
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.2"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
