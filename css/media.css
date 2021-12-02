@@ -23,10 +23,10 @@
 	.item-category .title-section {
 		margin-bottom: 25px;
 		min-height: 75px;
-	}
-	.item-category ul {
+	} 
+	.item-category ul { 
 		max-height: 81%;
-	}
+	} 
 }
 @media only screen and (max-width : 1800px) {
 	.item-catalog {
@@ -59,6 +59,10 @@
 	}
 	.about-block {
 		padding: 35px 25px;
+	}
+	.content__right .item-portofilo__content {
+		padding-left: 11px;
+		padding-right: 11px;	
 	}
 
 }
@@ -202,7 +206,32 @@
 	.about-page #tab4 .title-section {
 		font-size: 34px;
 	}
-
+	.content__right .slider-portfolio .item-portofilo {
+		margin: 0 15px;
+	}
+	.content__right .slider-portfolio {
+		margin: 0 40px;
+		margin-right: 50px;
+		margin-bottom: 60px;
+	}
+	.content__right .item-portofilo__image {
+		height: 344px;
+	}
+	.content__right .item-portofilo__title {
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.content__right .item-portofilo {
+		height: 500px;
+	}
+	.item-portofilo:hover .item-portofilo__image {
+		height: 248px;
+	}
+	.content__right .consultation {
+		margin-left: -30px;
+		margin-right: -25px;
+		padding-left: 15px;
+	}
 }
 @media only screen and (max-width : 1535px) {
 	.item-phone {
@@ -287,7 +316,16 @@
 	.about-page #tab4 .title-section {
 		font-size: 30px;
 	}
-
+	.content__right .item-portofilo__title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.row_three > div {
+		padding: 0 45px;
+	}
+	.row_three {
+		margin: 0 -45px;
+	}
 
 }
 @media only screen and (max-width : 1500px) {
@@ -341,7 +379,36 @@
 	.item-partner {
 		height: 130px;
 	}
-
+	.content__right .item-portofilo__title {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.content__right .item-portofilo__image {
+		height: 305px;
+	}
+	.content__right .item-portofilo {
+		height: 454px;
+	}
+	.content__right .item-portofilo:hover .item-portofilo__image {
+		height: 215px;
+	}
+	.content__right .item-portofilo:hover .item-portofilo__title {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.row_three > div {
+		padding: 0 30px;
+	}
+	.row_three {
+		margin: 0 -30px;
+	}
+	.article p, .article li {
+		margin-bottom: 15px;
+	}
+	.return-page .block-form {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.logo img {
@@ -614,7 +681,71 @@
 	.about-page #tab4 .title-section {
 		font-size: 27px;
 	}
-
+	.content__right .slider-portfolio .item-portofilo {
+		margin: 0 5px;
+	}
+	.content__right .item-portofilo__title {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.content__right .slider-portfolio .slick-prev {
+		left: -65px;
+	}
+	.content__right .slider-portfolio .slick-next {
+		right: -71px;
+	}
+	.slider-for__item {
+		height: 375px;
+	}
+	.object-block__right {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.object-price {
+		margin-bottom: 20px;
+	}
+	.object-block .title-middle {
+		margin-bottom: 20px;
+	}
+	.object-block .form-phone {
+		margin-top: 15px;
+	}
+	.slider-nav__item {
+		height: 92px;
+		margin: 0 5px;
+	}
+	.slider-nav {
+		margin: 0 -5px;
+		margin-top: 15px;
+	}
+	.article h6 {
+		font-size: 16px;
+	}
+.article h1, .article h2, .article h3, .article h4, .article h5, .article h6 {
+    margin-bottom: 13px;
+}
+.article {
+	font-size: 14px;
+	line-height: 22px;
+}
+.article li::before {
+	top: 6px;
+	margin-right: 7px;
+}
+.article h3 {
+    font-size: 20px;
+    line-height: 28px;
+    }
+    .return-page .block-form {
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    .return-info .title-min {
+    	padding-top: 0;
+    }
+    .return-info ul {
+    	margin-bottom: 50px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -672,6 +803,7 @@
 	.consultation .descr-page {
 		margin-bottom: 30px;
 	}
+	.article h1,
 	.title-section {
 		font-size: 32px;
 		line-height: 34px;
@@ -782,6 +914,10 @@
 	.about-consultation {
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+	.content__right .slider-portfolio {
+		margin: 0;
+		margin-bottom: 50px;
 	}
 
 }
@@ -1128,6 +1264,31 @@
 	.item-vacancy__content .btn-main {
 		margin-top: 25px;
 	}
+	.content__right .consultation {
+		margin-bottom: 30px;
+	}
+	.slider-nav__item {
+		height: 120px;
+	}
+	.object-block__right {
+		padding-top: 25px;
+	}
+	.object-block {
+		padding-bottom: 25px;
+	}
+	.article ul {
+		padding-left: 20px;
+	}
+	.article img {
+		width: initial;
+		max-width: 100%;
+	}
+	.return-info ul {
+		margin-bottom: 30px;
+	}
+	.return-page .card-content {
+		margin-bottom: 0;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1156,6 +1317,7 @@
 	.slider-billbord .slick-dots {
 		bottom: 22px;
 	}
+	.article h1,
 	.title-section {
 		font-size: 24px;
 		line-height: 30px;
@@ -1610,6 +1772,61 @@
 	.about-consultation {
 		margin-bottom: 25px;
 	}
+	.content__right .slider-portfolio {
+		margin-right: -15px;
+	}
+	.content__right .item-portofilo__title {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	.content__right .item-portofilo__content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.content__right .consultation {
+		margin: 0 -15px;
+		padding-left: 0;
+	}
+	.slider-for__item {
+		height: 320px;
+	}
+	.slider-nav__item {
+		height: 99px;
+	}
+	.slider-nav {
+		margin-top: 8px;
+	}
+	.object-price .price-main {
+		font-size: 26px;
+	}
+	.object-price__descr {
+		margin-right: 20px;
+	}
+	.object-block {
+		margin-bottom: 30px;
+	}
+	.object-page .content {
+		padding-bottom: 0;
+	}
+	.article h1 {
+		padding-top: 10px;
+	}
+	.article blockquote {
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+	.article img {
+		margin-bottom: 15px;
+	}
+	.return-info .title-min {
+		margin-bottom: 12px;
+	}
+	.return-info p {
+		margin-bottom: 15px;
+	}
+	.return-info ul {
+		margin-bottom: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1630,6 +1847,25 @@
 		height: 105px;
 		margin-top: 16px;
 	}
+	.object-block {
+		margin: 0 -15px;
+		margin-bottom: 30px;
+	}
+	.slider-for__item {
+		height: 270px;
+	}
+	.slider-nav__item {
+		height: 72px;
+	}
+	.form-phone .item-form {
+		width: 150px;
+		margin-right: 15px;
+	}
+	.article h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
 }
 @media only screen and (max-width : 396px) {
 	.about-numbers .item-about__title {
