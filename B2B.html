@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css?ver=1.5" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+</head>
+<body> 
+ 
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed"><i class="far fa-list-ul"></i>Каталог</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-user-circle"></i>Вход</a>
+			<a href="#" class="btn-fixed"><img src="img/filter.svg" alt="alt">Сравнить</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-heart"></i>Избранное</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-shopping-bag"></i>Корзина<span class="btn-fixed__value">5</span></a>
+		</div>
+
+		<header class="header default">
+			<div class="container-fluid">
+				<div class="header__wrap">
+					<div class="menu-main">
+						<div class="row">
+							<div class="col-lg-3">
+								<a href="#" class="title-menu">компания</a>
+								<ul class="nav-menu">
+									<li><a href="#">О компании</a></li>
+									<li><a href="#">Наша команда</a></li>
+									<li><a href="#">Сертификаты</a></li>
+									<li><a href="#">Партнёры</a></li>
+									<li><a href="#">Вакансии</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<a href="#" class="title-menu">Покупателям</a>
+								<ul class="nav-menu">
+									<li><a href="#">Доставка и оплата</a></li>
+									<li><a href="#">Возврат и обмен товара</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul>
+									<li><a href="#" class="title-menu">B2B клиентам</a></li>
+									<li><a href="#" class="title-menu">Портфолио</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul>
+									<li><a href="#" class="title-menu">Блог</a></li>
+									<li><a href="#" class="title-menu">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="header__left">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="btn-menu">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+							<div class="btn-menu__text">Меню</div>
+						</div>
+					</div>
+					<ul class="menu">
+						<li><a href="#">Покупателям</a></li>
+						<li><a href="#">B2B клиентам</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Вызвать замерщика</a></li>
+					</ul>
+					<div class="phones-block">
+						<a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21 <i class="far fa-chevron-down"></i></a>
+						<div class="phones-block__dropdown">
+							<ul>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-form">
+						<form>
+							<input type="text" placeholder="Поиск">
+							<div class="btn-search"><i class="fal fa-search"></i></div>
+						</form>
+					</div>
+					<div class="btn-icon"><i class="fal fa-user-circle"></i></div>
+					<div class="btn-icon"><img src="img/filter.svg" alt="alt"></div>
+					<div class="btn-icon"><i class="fal fa-heart"></i></div>
+					<div class="btn-icon">
+						<i class="fal fa-shopping-bag"></i>
+						<div class="btn-icon__value">5</div>
+						<div class="btn-icon__arrow"><i class="fas fa-chevron-down"></i></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="billbord billbord_b2b">
+			<div class="links-fixed">
+				<a href="tel:+79788370321" class="phone-mob"><i class="fas fa-phone-alt"></i></a>
+				<a href="#callback" class="btn-mob">вызвать замерщика</a>
+			</div>
+			<div class="catalog-btn-wrap">
+				<div class="btn-catalog">
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+					<div class="btn-catalog__text">каталог</div>
+				</div>
+			</div>
+			<div class="item-billbord">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8">
+							<div class="item-billbord__content">
+								<h1 class="descr-big"><strong>Получите оптовый прайс с индивидуальной скидкой</strong> <span>от крупнейшего поставщика дверей и напольных покрытий в Крыму</span></h1>
+								<div class="descr-page">или зарегистрируйтесь в личном кабинете, как оптовый покупатель и получите скидку на продукцию прямо сейчас</div>
+								<a href="#" class="cirlce_b2b"></a>
+								<div class="b2b_form">
+									<form>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="item-form">
+													<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<button class="btn-main">получить оптовый прайс</button>
+											</div>
+											<div class="col-md-6 offset-md-6 col_checkbox">
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" required="required" checked="checked" />
+														<span>Согласие на обработку персональных данных</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="categories categories_b2b">
+			<div class="container">
+				<h2 class="title-section">Компания «Вплюсе» сотрудничает и предлагает выгодное парнерство</h2>
+			</div>
+			<ul class="slider-categories">
+				<li>
+					<div class="item-category">
+						<div class="item-category__image">
+							<img src="img/category1_1.jpg" alt="alt">
+						</div>
+						<div class="item-category__content">
+							<a href="#" class="title-section">дизайнерам</a>
+							<div class="item-category__hidden">
+								<p>Выберите место установки и серию двери, и подберите свою дверь по дизайну и бюджету</p>
+							</div>
+							<a href="#" class="btn-main">СТАТЬ ПАРНЁРОМ</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item-category">
+						<div class="item-category__image">
+							<img src="img/category2_1.jpg" alt="alt">
+						</div>
+						<div class="item-category__content">
+							<a href="#" class="title-section">Архитекторам</a>
+							<div class="item-category__hidden">
+								<p>Выберите место установки и серию двери, и подберите свою дверь по дизайну и бюджету</p>
+							</div>
+							<a href="#" class="btn-main">СТАТЬ ПАРНЁРОМ</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item-category">
+						<div class="item-category__image">
+							<img src="img/category3_1.jpg" alt="alt">
+						</div>
+						<div class="item-category__content">
+							<a href="#" class="title-section">прорабам</a>
+							<div class="item-category__hidden">
+								<p>Выберите место установки и серию двери, и подберите свою дверь по дизайну и бюджету</p>
+							</div>
+							<a href="#" class="btn-main">СТАТЬ ПАРНЁРОМ</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item-category">
+						<div class="item-category__image">
+							<img src="img/category4_1.jpg" alt="alt">
+						</div>
+						<div class="item-category__content">
+							<a href="#" class="title-section">дилерам</a>
+							<div class="item-category__hidden">
+								<p>Выберите место установки и серию двери, и подберите свою дверь по дизайну и бюджету</p>
+							</div>
+							<a href="#" class="btn-main">СТАТЬ ПАРНЁРОМ</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item-category">
+						<div class="item-category__image">
+							<img src="img/category5_1.jpg" alt="alt">
+						</div>
+						<div class="item-category__content">
+							<a href="#" class="title-section">Оптовым <br>клиентам</a>
+							<div class="item-category__hidden">
+								<p>Выберите место установки и серию двери, и подберите свою дверь по дизайну и бюджету</p>
+							</div>
+							<a href="#" class="btn-main">СТАТЬ ПАРНЁРОМ</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item-category">
+						<div class="item-category__image">
+							<img src="img/category1_1.jpg" alt="alt">
+						</div>
+						<div class="item-category__content">
+							<a href="#" class="title-section">дизайнерам</a>
+							<div class="item-category__hidden">
+								<p>Выберите место установки и серию двери, и подберите свою дверь по дизайну и бюджету</p>
+							</div>
+							<a href="#" class="btn-main">СТАТЬ ПАРНЁРОМ</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="container">
+				<div class="arrows-categories"></div>
+			</div>
+		</section>
+
+		<section class="process">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 process__left">
+						<h2 class="title-section">Делаем процесс закупки максимально простым и прозрачным</h2>
+						<ul>
+							<li><strong>Для наших партнёров установлены минимальные цены.</strong> Вы можете купить товар дешево </li>
+							<li><strong>Собственный склад площадью 2 000 м²</strong> на территории Симферополя позволяет хранить более 5 000 товаров</li>
+							<li><strong>Заказы обрабатываются и поставляются в кратчайшие сроки,</strong> а оплата заказа может происходить в удобной вам форме </li>
+							<li><strong>Вам не придется общаться с кучей «сотрудников»</strong> за клиентом закрепляется персональный менеджер</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<div class="process__image">
+							<div class="cunsult-item cunsult-item_3">
+								<div class="cunsult-item__name">АЛЕКСЕЙ КУЛЬНЕВ</div>
+								<div class="cunsult-item__descr">заместитель ГЕНЕРАЛЬНого ДИРЕКТОРа</div>
+							</div>
+							<div class="cunsult-item cunsult-item_4">
+								<div class="cunsult-item__name">аЛЕКСЕЙ шелковников</div>
+								<div class="cunsult-item__descr">ГЕНЕРАЛЬНЫЙ ДИРЕКТОР</div>
+							</div>
+							<img src="img/process.jpg" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="excursion">
+			<div class="container">
+				<h2 class="title-section">Мы не скрываем рабочие процессы, <br>вы можете записаться на экскурсию по нашему складу</h2>
+			</div>
+			<ul class="slider-gallery">
+				<li>
+					<a href="img/gallery1.jpg" class="slider-gallery__item fancybox" rel="gallery1">
+						<img src="img/gallery1.jpg" alt="alt">
+					</a>
+				</li>
+				
+				<li>
+					<a href="img/gallery3.jpg" class="slider-gallery__item fancybox" rel="gallery1">
+						<img src="img/gallery3.jpg" alt="alt">
+					</a>
+				</li>
+				<li>
+					<a href="img/gallery4.jpg" class="slider-gallery__item fancybox" rel="gallery1">
+						<img src="img/gallery4.jpg" alt="alt">
+					</a>
+				</li>
+				<li>
+					<a href="img/gallery1.jpg" class="slider-gallery__item fancybox" rel="gallery1">
+						<img src="img/gallery1.jpg" alt="alt">
+					</a>
+				</li>
+				<li>
+					<a href="img/gallery2.jpg" class="slider-gallery__item fancybox" rel="gallery1">
+						<img src="img/gallery2.jpg" alt="alt">
+					</a>
+				</li>
+			</ul>
+			<div class="container">
+				<div class="bottom-form">
+					<div class="title-section">Записаться на экскурсию по складу</div>
+					<div class="bottom-form__wrap">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
+								</div>
+							</div>
+							<div class="col-md-4 col-6">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<button class="btn-main">Записаться на экскурсию</button>
+							</div>
+							<div class="col-12 col_checkbox">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked="checked">
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="partners">
+			<div class="container">
+				<h2 class="title-section">Сотрудничаем с более чем 100 компаниями по всему Крыму</h2>
+			</div>
+			<ul class="slider-partners">
+				<li>
+					<div class="item-partner">
+						<img src="img/partner1.png" alt="alt">
+					</div>
+				</li>
+				<li>
+					<div class="item-partner">
+						<img src="img/partner2.png" alt="alt">
+					</div>
+				</li>
+				<li>
+					<div class="item-partner">
+						<img src="img/partner3.png" alt="alt">
+					</div>
+				</li>
+				<li>
+					<div class="item-partner">
+						<img src="img/partner4.png" alt="alt">
+					</div>
+				</li>
+				<li>
+					<div class="item-partner">
+						<img src="img/partner5.png" alt="alt">
+					</div>
+				</li>
+				<li>
+					<div class="item-partner">
+						<img src="img/partner1.png" alt="alt">
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section class="become-partner">
+			<div class="container">
+				<div class="row align-items-end">
+					<div class="col-xl-7">
+						<div class="become-partner__left">
+							<h2 class="title-section">Вы можете стать успешным партнёром компании «Вплюсе» <br>и улучшить свой бизнес вместе с нами!</h2>
+							<div class="become-partner__descr">Мы проверим, всё ли правильно сделано в проекте, всё ли учтено, проверим смету и предложим <strong>цены на 20% ниже</strong>, благодаря собственному производству</div>
+							<div class="title-small">Станьте частью нашей команды</div>
+							<div class="form-become">
+								<form>
+									<div class="row align-items-center">
+										<div class="col-md-6">
+											<div class="item-form item-form_page">
+												<input type="text" placeholder="Имя" required="required">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="item-form item-form_page">
+												<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="item-form item-form_page">
+												<input type="email" placeholder="Ваш E-mail" required="required">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="item-form item-form_page">
+												<input type="text" placeholder="Название организации" required="required">
+											</div>
+										</div>
+										<div class="col-md-6 col_checkbox">
+											<div class="checkbox checkbox_page">
+												<label>
+													<input type="checkbox" required="required" checked="checked">
+													<span>Согласие на обработку персональных данных</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<button class="btn-main">отправить заявку</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5">
+						<div class="become-partner__image">
+							<img src="img/consults.png" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="logo-descr">Продажа, доставка <br>и монтаж дверей в Крыму <br>и Симферополе</div>
+						</div>
+						<ul class="list-social">
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+						</ul>
+						<div class="footer__mob">
+							<p>АР Крым, Симферополь ул. Павленко, 38</p>
+							<p class="footer__contacts"><a href="tel:+79785444040">+7 978 544-40-40</a> <a href="#"><i class="fab fa-whatsapp"></i></a></p>
+							<p><a href="mailto:rasim.okna2008@yandex.ru">rasim.okna2008@yandex.ru</a></p>
+							<p><strong>режим работы:</strong> ежедневно с 9:00 до 18:00</p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">каталог <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Межкомнатные двери</a></li>
+								<li><a href="#">Входные двери</a></li>
+								<li><a href="#">Скрытые двери</a></li>
+								<li><a href="#">Стеклянные двери</a></li>
+								<li><a href="#">Межкомнатные двери</a></li>
+								<li><a href="#">Фурнитура</a></li>
+								<li><a href="#">Перегородки</a></li>
+								<li><a href="#">Двери спец. назначения</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">покупателям <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Возврат и обмен товара</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#" class="footer__title">АКЦИИ</a></li>
+							<li><a href="#" class="footer__title">СОВЕТЫ И СТАТЬИ</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">о компании <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Наша команда</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+								<li><a href="#">Вакансии</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<div class="requisites">
+								<p>ИНН: 7805524271</p>
+								<p>ОГРН: 1107847199844</p>
+								<p>КПП: 780201001</p>
+								<p>ОКАТО: 40265000000</p>
+								<p>ОКПО: 67396289</p>
+								<p>ОКТМО: 40314000000</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" class="footer__title">контакты</a>
+						<div class="footer__content">
+							<p>АР Крым, Симферополь <br>ул. Павленко, 38</p>
+							<p class="footer__contacts"><a href="tel:+79785444040">+7 978 544-40-40</a> <a href="#"><i class="fab fa-whatsapp"></i></a></p>
+							<p><a href="mailto:rasim.okna2008@yandex.ru">rasim.okna2008@yandex.ru</a></p>
+							<p>режим работы: <br>ежедневно с 9:00 до 18:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<ul class="list-social list-social_mob">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-vk"></i></a></li>
+					</ul>
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.5"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
