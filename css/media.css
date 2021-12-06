@@ -7,6 +7,12 @@
 		padding-top: 180px;
 		padding-bottom: 40px;
 	}
+	.cirlce_b2b {
+		bottom: 150px;
+	}
+	.billbord_b2b .descr-page {
+		margin-bottom: 25px;
+	}
 }
 @media only screen and (max-width : 1830px) {
 	.item-category .title-section {
@@ -18,8 +24,8 @@
 	}
 	.item-category__content {
 		padding: 30px 25px;
-		padding-bottom: 10px;
-	}
+		padding-bottom: 20px;
+	} 
 	.item-category .title-section {
 		margin-bottom: 25px;
 		min-height: 75px;
@@ -73,6 +79,9 @@
 	.search-form,
 	.btn-icon {
 		width: 70px;
+	}
+	.catalog-btn-wrap {
+		top: 81px;
 	}
 	.header__left .btn-menu {
 		margin-left: 30px;
@@ -232,6 +241,30 @@
 		margin-right: -25px;
 		padding-left: 15px;
 	}
+	.billbord_b2b .item-billbord__content {
+		padding-left: 55px;
+	}
+	.billbord_b2b .descr-page {
+		margin-bottom: 60px;
+	}
+	.billbord_b2b .descr-big {
+		    font-size: 44px;
+    line-height: 53px;
+		margin-bottom: 40px;
+	}
+	.descr-big span {
+    font-size: 32px;
+    line-height: 42px;
+}
+	.billbord_b2b .descr-big {
+    max-width: 679px;
+}
+.billbord_b2b .descr-page {
+	max-width: 640px;
+}
+.slider-gallery__item {
+	height: 375px;
+}
 }
 @media only screen and (max-width : 1535px) {
 	.item-phone {
@@ -327,6 +360,7 @@
 		margin: 0 -45px;
 	}
 
+
 }
 @media only screen and (max-width : 1500px) {
 	.slider-portfolio .slick-prev {
@@ -409,6 +443,31 @@
 		padding-left: 45px;
 		padding-right: 45px;
 	}
+	.billbord_b2b .item-billbord__content {
+    padding-left: 110px;
+}
+.cirlce_b2b {
+	right: -20px;
+}
+.process__image img {
+	max-width: 740px;
+}
+.cunsult-item_4 {
+    top: 261px;
+    left: 365px;
+}
+.cunsult-item_3 {
+	bottom: 52px;
+}
+.slider-gallery__item {
+    height: 330px;
+}
+.process .title-section {
+	padding-bottom: 40px;
+}
+.process li {
+	margin-bottom: 30px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	.logo img {
@@ -746,6 +805,61 @@
     .return-info ul {
     	margin-bottom: 50px;
     }
+    .billbord_b2b .descr-big {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.descr-big span {
+    font-size: 27px;
+    line-height: 37px;
+}
+.billbord_b2b {
+	background-position: left center;
+}
+.cirlce_b2b {
+    right: -129px;
+}
+.process__image img {
+    max-width: 660px;
+}
+.cunsult-item_4 {
+    top: 234px;
+    left: 320px;
+}
+.slider-gallery__item {
+	height: 280px;
+	margin: 0 7px;
+}
+.slider-gallery .slick-prev {
+    left: 124px;
+}
+.slider-gallery .slick-next {
+    right: 124px;
+}
+.bottom-form .title-section {
+    padding-right: 23px;
+    width: 310px;
+    }
+    .slider-partners .item-partner {
+    	margin: 0 7px;
+    }
+    .slider-partners {
+    	padding: 0 7px;
+    	padding-bottom: 40px;
+    }
+    .become-partner__image img {
+    max-width: 535px;
+}
+.form-become {
+    max-width: 590px;
+}
+.become-partner__descr {
+	margin-bottom: 25px;
+}
+.process__left {
+	padding-right: 15px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -919,7 +1033,53 @@
 		margin: 0;
 		margin-bottom: 50px;
 	}
-
+	.billbord_b2b .item-billbord__content {
+		padding-left: 0;
+		padding-bottom: 40px;
+		height: initial;
+	}
+	.categories_b2b {
+		padding-bottom: 30px;
+	}
+	.process__image img {
+    max-width: 590px;
+}
+.cunsult-item_4 {
+    top: 209px;
+    left: 236px;
+}
+.process li {
+	margin-bottom: 25px;
+	font-size: 16px;
+}
+.slider-gallery {
+	padding-bottom: 30px;
+}
+.bottom-form {
+	margin-top: 20px;
+	display: block;
+}
+.bottom-form .title-section {
+	width: 100%;
+	padding: 0;
+	padding-bottom: 30px;
+}
+.excursion {
+	padding-bottom: 40px;
+}
+.become-partner__image {
+	display: none;
+}
+.become-partner .title-section br {
+	display: none;
+}
+.form-become {
+    max-width: 100%;
+}
+.become-partner__left {
+	padding-bottom: 60px;
+	margin: 0;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1289,6 +1449,26 @@
 	.return-page .card-content {
 		margin-bottom: 0;
 	}
+	.cirlce_b2b {
+		display: none;
+	}
+	.billbord_b2b {
+    background-position: 21% 50%;
+}
+.process {
+	padding-top: 30px;
+}
+.process__image img {
+	max-width: 100%;
+}
+.cunsult-item_4 {
+	top: 236px;
+	right: 150px;
+	left: auto;
+}
+.slider-gallery__item {
+	height: 255px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1327,6 +1507,7 @@
 	.bottom-link {
 		display: none;
 	}
+	.item-category__hidden,
 	.item-category ul, .item-category .btn-main {
 		opacity: 1;
 	}
@@ -1827,6 +2008,73 @@
 	.return-info ul {
 		margin-bottom: 20px;
 	}
+	.billbord_b2b .item-billbord__content {
+		padding-top: 120px;
+	}
+	.billbord_b2b .descr-big {
+    font-size: 29px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.descr-big span {
+    font-size: 22px;
+    line-height: 31px;
+}
+.billbord_b2b .item-billbord__content .btn-main {
+	margin: 0;
+}
+.b2b_form .item-form {
+	margin-bottom: 25px;
+}
+.b2b_form .checkbox {
+	margin-top: 0;
+}
+.process .title-section {
+	padding-bottom: 30px;
+}
+.cunsult-item_4 {
+    top: 40%;
+    right: 18%;
+    }
+    .process__image {
+    	margin: 0 -15px;
+    }
+    .excursion .title-section br {
+    	display: none;
+    }
+    .slider-gallery__item {
+    	height: 170px;
+    	margin: 0 5px;
+    }
+    .slider-gallery {
+    	margin: 0 -5px;
+    	margin-top: 15px;
+    }
+    .bottom-form .item-form {
+    	margin-bottom: 25px;
+    }
+    .bottom-form .checkbox {
+    	margin-top: 0;
+    }
+    .slider-partners .item-partner {
+    	height: 105px;
+    }
+    .become-partner__descr {
+    font-size: 16px;
+    line-height: 24px;
+}
+.form-become .item-form_page {
+	margin-bottom: 30px;
+}
+.become-partner .title-small {
+	margin-bottom: 15px;
+}
+.become-partner__left {
+	padding-bottom: 40px;
+}
+.become-partner {
+	padding-top: 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1865,7 +2113,32 @@
     font-size: 18px;
     line-height: 24px;
 }
-
+.process__image .cunsult-item__name {
+    font-size: 13px;
+    margin-bottom: 2px;
+    padding: 3px 9px;
+}
+.process__image .cunsult-item__descr {
+    font-size: 10px;
+    line-height: 14px;
+}
+.cunsult-item_3 {
+	max-width: 180px;
+	bottom: 15%;
+	left: 3%;
+}
+.slider-gallery__item {
+	height: 185px;
+}
+.bottom-form__wrap .row {
+	margin: 0 -5px;
+}
+.bottom-form__wrap .row > div {
+	padding: 0 5px;
+}
+.bottom-form__wrap .row > div.col_checkbox {
+	padding-top: 15px;
+}
 }
 @media only screen and (max-width : 396px) {
 	.about-numbers .item-about__title {
