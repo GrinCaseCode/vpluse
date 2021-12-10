@@ -321,6 +321,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(selectTab2).fadeIn(200);
 	});
 
+	$('.tabs-modal li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-modal").fadeOut(0);
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(200);
+	});
+
 	{
 		if ($(window).width() < 992) { 
 			$(".footer__title").click(function() {

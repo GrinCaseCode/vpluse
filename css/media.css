@@ -860,7 +860,19 @@
 .process__left {
 	padding-right: 15px;
 }
+
+/*new*/
+.card-page_linoleum .card-image {
+	height: 540px;
 }
+.wrap-line-linoleum .item-select, .wrap-line-linoleum .item-input {
+	width: 107px;
+}
+.thanks .title-small {
+	margin-bottom: 70px;
+}
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.catalog-btn-wrap,
@@ -1469,6 +1481,26 @@
 .slider-gallery__item {
 	height: 255px;
 }
+
+/*new*/
+.card-page_linoleum .availability {
+	margin-bottom: 15px;
+}
+.card-page_linoleum .colors-radios {
+	margin-bottom: 25px;
+}
+.wrap-line-linoleum {
+	margin-bottom: 25px;
+}
+.thanks {
+	background-position: 30% 50%;
+}
+.delivery-right {
+	padding-top: 25px;
+}
+.delivery-page img {
+	margin-top: 20px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -2075,6 +2107,36 @@
 .become-partner {
 	padding-top: 10px;
 }
+
+/*new*/
+.card-page_linoleum .card-image {
+	height: initial;
+}
+.card-page_linoleum .articul {
+	margin-bottom: 5px;
+}
+.wrap-line-linoleum .item-select, .wrap-line-linoleum .item-input {
+    width: 115px;
+    margin-right: 20px;
+}
+.card-prices_hid-mob {
+	display: none;
+}
+.thanks__title {
+    font-size: 44px;
+    margin-bottom: 15px;
+    }
+    .thanks__title span {
+    font-size: 31px;
+    line-height: 41px;
+}
+.thanks .title-small {
+    margin-bottom: 38px;
+}
+.thanks__content {
+	min-height: 388px;
+	height: initial;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -2138,6 +2200,66 @@
 }
 .bottom-form__wrap .row > div.col_checkbox {
 	padding-top: 15px;
+}
+
+/*new*/
+.wrap-line-linoleum {
+	flex-wrap: wrap;
+}
+.wrap-line-linoleum .value-card {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.wrap-line-linoleum .item-select, .wrap-line-linoleum .item-input {
+	width: 135px;
+}
+ .wrap-line-linoleum .item-input  {
+ 	margin-right: 0;
+ }
+  #modal-callback .modal-wrap,
+ #modal-measurer .modal-wrap,
+ .modal-wrap {
+ 	padding: 30px 20px;
+ }
+ .tabs-modal {
+ 	margin: 0 -8px;
+ 	margin-bottom: 15px;
+ }
+ .tabs-modal a {
+ 	padding: 10px;
+ }
+ .modal-wrap .title-small {
+ 	padding-bottom: 15px;
+ }
+ .modal-button {
+ 	padding-top: 7px;
+ }
+ .thanks__title span {
+    font-size: 26px;
+    line-height: 37px;
+}
+.thanks .title-small {
+	max-width: 268px;
+	margin-bottom: 55px;
+}
+.thanks .title-small br {
+	display: none;
+}
+.thanks__title {
+	margin-bottom: 25px;
+}
+.thanks {
+    background-position: 44% 50%;
+}
+.list-payments li {
+    margin-right: 25px;
+}
+.delivery-page .title-middle {
+	margin-bottom: 15px;
+}
+#modal-callback .modal-wrap .title-small,
+#modal-measurer .modal-wrap .title-small {
+    padding-bottom: 15px;
 }
 }
 @media only screen and (max-width : 396px) {
@@ -2220,5 +2342,5 @@
 @media (min-width: 1600px) {
 	.container {
 		max-width: 1390px;
-	}
+	} 
 }
