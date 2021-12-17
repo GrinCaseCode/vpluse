@@ -2362,6 +2362,8 @@
 	flex: none;
 }
 .tabs-card_personal {
+	margin: 0;
+	margin-top: 10px;
 	justify-content: space-around;
 }
 }
