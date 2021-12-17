@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css?ver=1.16" />
+	<link rel="stylesheet" href="css/main.css?ver=1.16" />
+	<link rel="stylesheet" href="css/media.css?ver=1.16" />
+</head>
+<body>
+ 
+	<div class="wrapper wrapper_page">
+
+		<div class="buttons-fixed"> 
+			<a href="#" class="btn-fixed"><i class="far fa-list-ul"></i>Каталог</a>
+			<a href="#modal-personal" class="btn-fixed fancybox"><i class="fal fa-user-circle"></i>Вход</a>
+			<a href="#" class="btn-fixed"><img src="img/filter.svg" alt="alt">Сравнить</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-heart"></i>Избранное</a>
+			<a href="#" class="btn-fixed"><i class="fal fa-shopping-bag"></i>Корзина<span class="btn-fixed__value">5</span></a>
+		</div>
+
+		<header class="header default">
+			<div class="container-fluid">
+				<div class="header__wrap">
+					<div class="menu-main">
+						<div class="row">
+							<div class="col-lg-3">
+								<a href="#" class="title-menu">компания</a>
+								<ul class="nav-menu">
+									<li><a href="#">О компании</a></li>
+									<li><a href="#">Наша команда</a></li>
+									<li><a href="#">Сертификаты</a></li>
+									<li><a href="#">Партнёры</a></li>
+									<li><a href="#">Вакансии</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<a href="#" class="title-menu">Покупателям</a>
+								<ul class="nav-menu">
+									<li><a href="#">Доставка и оплата</a></li>
+									<li><a href="#">Возврат и обмен товара</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul>
+									<li><a href="#" class="title-menu">B2B клиентам</a></li>
+									<li><a href="#" class="title-menu">Портфолио</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul>
+									<li><a href="#" class="title-menu">Блог</a></li>
+									<li><a href="#" class="title-menu">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="header__left">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="btn-menu">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+							<div class="btn-menu__text">Меню</div>
+						</div>
+					</div>
+					<ul class="menu">
+						<li><a href="#">Покупателям</a></li>
+						<li><a href="#">B2B клиентам</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#modal-measurer" class="fancybox">Вызвать замерщика</a></li>
+					</ul>
+					<div class="phones-block">
+						<a href="#modal-callback" class="item-phone fancybox">+7 (978) 837-03-21 <i class="far fa-chevron-down"></i></a>
+						<div class="phones-block__dropdown">
+							<ul>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+								<li><a href="tel:+79788370321" class="item-phone">+7 (978) 837-03-21</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-form">
+						<form>
+							<input type="text" placeholder="Поиск">
+							<div class="btn-search"><i class="fal fa-search"></i></div>
+						</form>
+					</div>
+					<a href="#modal-personal" class="btn-icon fancybox"><i class="fal fa-user-circle"></i></a>
+					<a href="#" class="btn-icon"><img src="img/filter.svg" alt="alt"></a>
+					<a href="#" class="btn-icon"><i class="fal fa-heart"></i></a>
+					<div class="btn-icon">
+						<i class="fal fa-shopping-bag"></i>
+						<div class="btn-icon__value">5</div>
+						<div class="btn-icon__arrow"><i class="fas fa-chevron-down"></i></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="personal-page">
+			<div class="content content_page">
+				<div class="content__left">
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Новинки</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar active">
+						<div class="item-sidebar__link">Межкомнатные двери</div>
+						<div class="item-sidebar__content" style="display: block;">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Металлические двери</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Входные двери</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Ламинат</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Виниловые полы</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-sidebar">
+						<div class="item-sidebar__link">Декор</div>
+						<div class="item-sidebar__content">
+							<ul>
+								<li class="active"><a href="#">Эко Шпон</a></li>
+								<li><a href="#">Эмалит</a></li>
+								<li><a href="#">Хард Флекс</a></li>
+								<li><a href="#">Финиш Флекс</a></li>
+								<li><a href="#">Винил</a></li>
+								<li><a href="#">CPL</a></li>
+								<li><a href="#">Эмаль</a></li>
+								<li><a href="#">Массив</a></li>
+								<li><a href="#">Шпон</a></li>
+								<li><a href="#">Стеклянные</a></li>
+								<li><a href="#">С врезкой</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="content__right">
+					<div class="card-content">
+						<h1 class="title-section title-section_center">личный кабинет розница</h1>
+						<ul class="tabs-card tabs-card_personal">
+							<li class="active"><a href="#tab_personal1">Личные данные</a></li>
+							<li><a href="#tab_personal2">История заказов</a></li>
+							<li><a href="#" class="exit-personal">выйти</a></li>
+						</ul>
+						<div class="tab-container-card">
+							<div class="tab-pane-card" id="tab_personal1">
+								<div class="form-personal">
+									<form>
+										<div class="row">
+											<div class="col-lg-6">
+												<div class="item-input">
+													<input type="text" placeholder="ФИО" required="required">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="item-input">
+													<input type="email" placeholder="E-mail" required="required">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="item-input">
+													<input type="text" placeholder="Телефон" class="input-phone" required="required">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="item-input">
+													<input type="text" placeholder="Адрес" required="required">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="item-input">
+													<input type="password" placeholder="Пароль" required="required">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="item-input">
+													<input type="password" placeholder="Изменить пароль" required="required">
+												</div>
+											</div>
+											<div class="col-lg-6 offset-lg-3">
+												<button class="btn-main">изменить</button>
+											</div>
+										</div>
+										<div class="checkbox-wrap">
+											<div class="checkbox checkbox_page">
+												<label>
+													<input type="checkbox" required="required" checked="checked" />
+													<span>Согласие на обработку персональных данных</span>
+												</label>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="tab-pane-card" id="tab_personal2">
+								<div class="purchase-history">
+									<div class="purchase-history__head">
+										<div class="row">
+											<div class="col-lg-2">
+												<div class="purchase-history__title">Номер заказа</div>
+											</div>
+											<div class="col-lg-2">
+												<div class="purchase-history__title">Дата заказа</div>
+											</div>
+											<div class="col-lg-2">
+												<div class="purchase-history__title">Количество</div>
+											</div>
+											<div class="col-lg-2">
+												<div class="purchase-history__title">Сумма заказа</div>
+											</div>
+											<div class="col-lg-2">
+												<div class="purchase-history__title">Тип оплаты</div>
+											</div>
+											<div class="col-lg-2">
+												<div class="purchase-history__title">Статус</div>
+											</div>
+										</div>
+									</div>
+									<div class="purchase-history__item">
+										<div class="row">
+											<div class="col-lg-2" data-title="Номер заказа">
+												<div class="purchase-history__name"><i class="far fa-chevron-down"></i> Заказ № 1234</div>
+											</div>
+											<div class="col-lg-2" data-title="Дата заказа">
+												<p>30.11.2021</p>
+											</div>
+											<div class="col-lg-2" data-title="Количество">
+												<p>2 шт</p>
+											</div>
+											<div class="col-lg-2" data-title="Сумма заказа">
+												<p><strong>1 623 780 руб</strong></p>
+											</div>
+											<div class="col-lg-2" data-title="Тип оплаты">
+												<p class="purchase-green">Безнал</p>
+											</div>
+											<div class="col-lg-2" data-title="Статус">
+												<p class="purchase-green">Выполнен</p>
+											</div>
+										</div>
+										<div class="purchase-subtable">
+											<table>
+												<thead>
+													<tr>
+														<th>Товар</th>
+														<th>Цена</th>
+														<th>Количество</th>
+														<th>Сумма</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td data-title="Товар">Дверь под покраску кромка алюминий с коробкой Invisible Eclipse</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+													<tr>
+														<td data-title="Товар">Дверь под покраску со скрытой коробкой Invisible</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="purchase-history__item">
+										<div class="row">
+											<div class="col-lg-2" data-title="Номер заказа">
+												<div class="purchase-history__name"><i class="far fa-chevron-down"></i> Заказ № 1234</div>
+											</div>
+											<div class="col-lg-2" data-title="Дата заказа">
+												<p>30.11.2021</p>
+											</div>
+											<div class="col-lg-2" data-title="Количество">
+												<p>2 шт</p>
+											</div>
+											<div class="col-lg-2" data-title="Сумма заказа">
+												<p><strong>1 623 780 руб</strong></p>
+											</div>
+											<div class="col-lg-2" data-title="Тип оплаты">
+												<p class="purchase-green">Безнал</p>
+											</div>
+											<div class="col-lg-2" data-title="Статус">
+												<p class="purchase-green">Выполнен</p>
+											</div>
+										</div>
+										<div class="purchase-subtable">
+											<table>
+												<thead>
+													<tr>
+														<th>Товар</th>
+														<th>Цена</th>
+														<th>Количество</th>
+														<th>Сумма</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td data-title="Товар">Дверь под покраску кромка алюминий с коробкой Invisible Eclipse</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+													<tr>
+														<td data-title="Товар">Дверь под покраску со скрытой коробкой Invisible</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="purchase-history__item">
+										<div class="row">
+											<div class="col-lg-2" data-title="Номер заказа">
+												<div class="purchase-history__name"><i class="far fa-chevron-down"></i> Заказ № 1234</div>
+											</div>
+											<div class="col-lg-2" data-title="Дата заказа">
+												<p>30.11.2021</p>
+											</div>
+											<div class="col-lg-2" data-title="Количество">
+												<p>2 шт</p>
+											</div>
+											<div class="col-lg-2" data-title="Сумма заказа">
+												<p><strong>1 623 780 руб</strong></p>
+											</div>
+											<div class="col-lg-2" data-title="Тип оплаты">
+												<p class="purchase-green">Безнал</p>
+											</div>
+											<div class="col-lg-2" data-title="Статус">
+												<p class="purchase-green">Выполнен</p>
+											</div>
+										</div>
+										<div class="purchase-subtable">
+											<table>
+												<thead>
+													<tr>
+														<th>Товар</th>
+														<th>Цена</th>
+														<th>Количество</th>
+														<th>Сумма</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td data-title="Товар">Дверь под покраску кромка алюминий с коробкой Invisible Eclipse</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+													<tr>
+														<td data-title="Товар">Дверь под покраску со скрытой коробкой Invisible</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="purchase-history__item">
+										<div class="row">
+											<div class="col-lg-2" data-title="Номер заказа">
+												<div class="purchase-history__name"><i class="far fa-chevron-down"></i> Заказ № 1234</div>
+											</div>
+											<div class="col-lg-2" data-title="Дата заказа">
+												<p>30.11.2021</p>
+											</div>
+											<div class="col-lg-2" data-title="Количество">
+												<p>2 шт</p>
+											</div>
+											<div class="col-lg-2" data-title="Сумма заказа">
+												<p><strong>1 623 780 руб</strong></p>
+											</div>
+											<div class="col-lg-2" data-title="Тип оплаты">
+												<p class="purchase-orange">Не оплачен</p>
+											</div>
+											<div class="col-lg-2" data-title="Статус">
+												<p>Принят, ожидается оплата</p>
+											</div>
+										</div>
+										<div class="purchase-subtable">
+											<table>
+												<thead>
+													<tr>
+														<th>Товар</th>
+														<th>Цена</th>
+														<th>Количество</th>
+														<th>Сумма</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td data-title="Товар">Дверь под покраску кромка алюминий с коробкой Invisible Eclipse</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+													<tr>
+														<td data-title="Товар">Дверь под покраску со скрытой коробкой Invisible</td>
+														<td data-title="Цена"><strong>26 489 руб</strong></td>
+														<td data-title="Количество">2 шт</td>
+														<td data-title="Сумма"><strong>52 978 руб</strong></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="logo-descr">Продажа, доставка <br>и монтаж дверей в Крыму <br>и Симферополе</div>
+						</div>
+						<ul class="list-social">
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+						</ul>
+						<div class="footer__mob">
+							<p>АР Крым, Симферополь ул. Павленко, 38</p>
+							<p class="footer__contacts"><a href="tel:+79785444040">+7 978 544-40-40</a> <a href="#"><i class="fab fa-whatsapp"></i></a></p>
+							<p><a href="mailto:rasim.okna2008@yandex.ru">rasim.okna2008@yandex.ru</a></p>
+							<p><strong>режим работы:</strong> ежедневно с 9:00 до 18:00</p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">каталог <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Межкомнатные двери</a></li>
+								<li><a href="#">Входные двери</a></li>
+								<li><a href="#">Скрытые двери</a></li>
+								<li><a href="#">Стеклянные двери</a></li>
+								<li><a href="#">Межкомнатные двери</a></li>
+								<li><a href="#">Фурнитура</a></li>
+								<li><a href="#">Перегородки</a></li>
+								<li><a href="#">Двери спец. назначения</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">покупателям <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Возврат и обмен товара</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#" class="footer__title">АКЦИИ</a></li>
+							<li><a href="#" class="footer__title">СОВЕТЫ И СТАТЬИ</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">о компании <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Наша команда</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+								<li><a href="#">Вакансии</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title footer__title_mob">реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<div class="requisites">
+								<p>ИНН: 7805524271</p>
+								<p>ОГРН: 1107847199844</p>
+								<p>КПП: 780201001</p>
+								<p>ОКАТО: 40265000000</p>
+								<p>ОКПО: 67396289</p>
+								<p>ОКТМО: 40314000000</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" class="footer__title">контакты</a>
+						<div class="footer__content">
+							<p>АР Крым, Симферополь <br>ул. Павленко, 38</p>
+							<p class="footer__contacts"><a href="tel:+79785444040">+7 978 544-40-40</a> <a href="#"><i class="fab fa-whatsapp"></i></a></p>
+							<p><a href="mailto:rasim.okna2008@yandex.ru">rasim.okna2008@yandex.ru</a></p>
+							<p>режим работы: <br>ежедневно с 9:00 до 18:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<ul class="list-social list-social_mob">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-vk"></i></a></li>
+					</ul>
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg-3">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="modal-personal" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-small">Регистрация</div>
+			<ul class="tabs-modal">
+				<li class="active"><a href="#tab_modal1">оптовики</a></li>
+				<li><a href="#tab_modal2">розница</a></li>
+			</ul>
+			<div class="tab-container-modal">
+				<div class="tab-pane-modal" id="tab_modal1">
+					<form>
+						<div class="item-form item-form_page">
+							<input type="text" placeholder="Название компании" required="required">
+						</div>
+						<div class="item-form item-form_page">
+							<input type="text" placeholder="Телефон" class="input-phone" required="required">
+						</div>
+						<div class="item-form item-form_page">
+							<input type="text" placeholder="Адрес" required="required">
+						</div>
+						<div class="item-form item-form_page">
+							<input type="email" placeholder="E-mail" required="required">
+						</div>
+						<div class="row row_modal">
+							<div class="col-sm-6">
+								<div class="item-form item-form_page">
+									<input type="text" placeholder="ИНН" required="required">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="item-form item-form_page">
+									<input type="text" placeholder="КПП" required="required">
+								</div>
+							</div>
+						</div>
+						<div class="modal-button">
+							<button class="btn-main">зарегистрироваться</button>
+						</div>
+						<div class="checkbox-wrap">
+							<div class="checkbox checkbox_page">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane-modal" id="tab_modal2">
+					<form>
+						<div class="item-form item-form_page">
+							<input type="text" placeholder="Имя" required="required">
+						</div>
+						<div class="item-form item-form_page">
+							<input type="text" placeholder="Телефон" class="input-phone" required="required">
+						</div>
+						<div class="item-form item-form_page">
+							<input type="email" placeholder="E-mail" required="required">
+						</div>
+						<div class="modal-button">
+							<button class="btn-main">зарегистрироваться</button>
+						</div>
+						<div class="checkbox-wrap">
+							<div class="checkbox checkbox_page">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-measurer" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-small">вЫЗВАТЬ ЗАМЕРЩИКА</div>
+			<form>
+				<div class="item-form item-form_page">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form item-form_page">
+					<input type="text" placeholder="Телефон" class="input-phone" required="required">
+				</div>
+				<div class="item-form item-form_page">
+					<input type="email" placeholder="E-mail" required="required">
+				</div>
+				<div class="modal-button">
+					<button class="btn-main">вызвать замерщика</button>
+				</div>
+				<div class="checkbox-wrap">
+					<div class="checkbox checkbox_page">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-small">Заказать звонок</div>
+			<form>
+				<div class="item-form item-form_page">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form item-form_page">
+					<input type="text" placeholder="Телефон" class="input-phone" required="required">
+				</div>
+				<div class="modal-button">
+					<button class="btn-main">отправить</button>
+				</div>
+				<div class="checkbox-wrap">
+					<div class="checkbox checkbox_page">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.16"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
