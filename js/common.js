@@ -33,6 +33,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
   });
 
 
+$(".purchase-history__name").click(function() {
+			$(this).toggleClass("active");
+			$(this).parent().parent().parent().find(".purchase-subtable").slideToggle(200);
+		});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -312,7 +317,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(selectTab).addClass("active");
 	});
 
-	$('.tabs-card li a').click(function(event) {
+	$('.tabs-card li a:not(.exit-personal)').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
 		$(this).parent().addClass('active');
@@ -329,6 +334,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		var selectTab3 = $(this).attr("href");
 		$(selectTab3).fadeIn(200);
 	});
+
+
 
 	{
 		if ($(window).width() < 992) { 
