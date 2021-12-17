@@ -2228,6 +2228,9 @@
 .personal-page .content__right .title-section {
 	padding-bottom: 0;
 }
+.checkbox_page .checkbox label > span {
+	padding-top: 1px;
+}
 }
 
 
